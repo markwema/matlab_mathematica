@@ -90,7 +90,9 @@
 
 Aby zlokalizować pierwiastek równania f(x)=0 potrzeba kilku kroków:
 
-0. Czy funkcja w danym przedziale zminia znak: f(a)*f(b)<0
+```
+ Czy funkcja w danym przedziale zmienia znak: f(a)*f(b)<0
+```
 
 #### Metody lokalizacji pierwiastka
 
@@ -106,14 +108,13 @@ Aby zlokalizować pierwiastek równania f(x)=0 potrzeba kilku kroków:
     a=x2
     
 2. metoda iteracji prostej
-  
+
+``` 
     f(x)=0
-    
     x=g(x)
-    
     xn+1=y(xn)
-x2=xp
-    
+    x2=xp
+```
  
     
 d) Metoda siecznych
