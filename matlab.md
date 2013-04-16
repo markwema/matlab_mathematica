@@ -43,90 +43,69 @@
 * **clear('zmienna')** - usuwa zmienną z pamięci;
 * **A'** - transpozycja macierzy A;
 * **.** - działania tablicowe;
-   x=[1 2 3 ]
+
+----------------------------
+
+###Przykłady
+ >> x=[1 2 3 ],
   x =
      1     2     3
-  >> y=[4 5 6]
+  >> y=[4 5 6], 
   y =
  4     5     6
-  >> x.*y
+  >> x.*y, 
   ans =
      4    10    18
-* factorial(np10)  - oblicza silnie
-* primes(np120) - rozklad na lczby pierwsze
-* max(x) - najwieksza wartosc w wektorze
-* roots() - obliczanie pierwiasków
 
-* . -kropka
-* , -przecinek znak oddzielajacy w strukrze, kilka operacji w jednej linijce:
+------------------------------------
+
+##Ciekawsze funkcje
+
+* **factorial(10)**  - oblicza silnie 10!;
+* **primes(120)** - wypisuje liczby pierwsze nie większe od 120;
+* **max(x)** - największa wartość w wektorzex;
+* **roots(w)** - obliczanie pierwiastków wielomianu, w wektor współczynników wielomianu;
+* **,** -przecinek znak oddzielający w strukrze, kilka operacji w jednej linijce:
   >> x=2,y=3
   x =
      2
   y =
      3
-* ; - srednik umieszczany na koncu lini wstrzymuje wydruk
-* : -dwukropek separator w poleceniu tworzenia wektora
-* () - nawiasy okragle, zawieraja indeksy elementu macierzy
-* [] - nawiasy kwadratowe, tworza tablice liczb lub lancuchów znaków.
-* xlabel('funkcja x y') - podisywnie osi x, gdy wstawimy y podpisze y.
-* % - oznacza poczatek komentarza
-* %{ - zawiera blok linii komentarza
-* ... - wielokropek nastepna linia jest kontynuacja natepnej linii
-* @ - tworzy uchwyt funkcji np @nazwa
-* \ - ukosnik lewy macierzowy operator matematyczny oraz używany do generacji greckich liter i symbolo matematycznych w gafice
-* disp - drukuje wyniki
-* clc - usówa wszystko z okna Command Window
-* clear all - usuówa wszytskie zmienne
-* close all - zamyka wszystkie okienka graficzne jeżeli byly pootwierane
- 4     5     6
-  >> x.*y
-  ans =
-     4    10    18
-* factorial(np10)  - oblicza silnie
-* primes(np120) - rozklad na lczby pierwsze
-* max(x) - najwieksza wartosc w wektorze
-* roots() - obliczanie pierwiasków
+* **;** - średnik umieszczany na końcu lini wstrzymuje wydruk;
+* **:** -dwukropek separator w poleceniu tworzenia wektora;
+* **()** - nawiasy okrągłe, zawierają indeksy elementu macierzy;
+* **[]** - nawiasy kwadratowe, tworzą tablice liczb lub łańcuchów znaków;
+* **xlabel('funkcja x y')** - podpisywnie osi x, gdy wstawimy y podpisze y;
+* **%** - oznacza początek komentarza;
+* **%{** - zawiera blok linii komentarza;
+* **...** - wielokropek następna linia jest kontynuacją poprzedniej linii;
+* **@** - tworzy uchwyt funkcji np @nazwa;
+* **\** - ukośnik lewy macierzowy operator matematyczny oraz używany do generacji greckich liter i symbolów matematycznych w gafice
+* **disp** - wyświetla wyniki;
+* **clc** - usuwa wszystko z okna Command Window;
+* **clear all** - usuuwa wszystkie zmienne;
 
-* . -kropka
-* , -przecinek znak oddzielajacy w strukrze, kilka operacji w jednej linijce:
-  >> x=2,y=3
-  x =
-     2
-  y =
-     3
-* ; - srednik umieszczany na koncu lini wstrzymuje wydruk
-* : -dwukropek separator w poleceniu tworzenia wektora
-* () - nawiasy okragle, zawieraja indeksy elementu macierzy
-* [] - nawiasy kwadratowe, tworza tablice liczb lub lancuchów znaków.
-* xlabel('funkcja x y') - podisywnie osi x, gdy wstawimy y podpisze y.
-* % - oznacza poczatek komentarza
-* %{ - zawiera blok linii komentarza
-* ... - wielokropek nastepna linia jest kontynuacja natepnej linii
-* @ - tworzy uchwyt funkcji np @nazwa
-* \ - ukosnik lewy macierzowy operator matematyczny oraz używany do generacji greckich liter i symbolo matematycznych w gafice
-* disp - drukuje wyniki
-* clc - usówa wszystko z okna Command Window
-* clear all - usuówa wszytskie zmienne
-* close all - zamyka wszystkie okienka graficzne jeżeli byly pootwierane
-Aby zlokalizować pierwistek potrzeba kilka kroków:
+-----------------------------------------------
+###Rozwiązywanie numeryczne równania f(x)=0
 
-f(a)f(b)<0
+Aby zlokalizować pierwiastek równania f(x)=0 potrzeba kilku kroków:
 
-1. Lokalizacja
+0. Czy funkcja w danym przedziale zminia znak: f(a)*f(b)<0
 
-2. metoda numeryczna
+#### Metody lokalizacji pierwiastka
 
-a) bisekcja
 
-    x1=(b-a)/2 /|f(x)|<E
+1. bisekcja
+
+    x1=(b-a)/2 & |f(x)|<E
   
-    f(a)f(xi)>0
+    f(a)*f(xi)>0
     
-    f(xi)f(b)<0
+    f(xi)*f(b)<0
     
     a=x2
     
-b) metoda iteracji prostej
+2. metoda iteracji prostej
   
     f(x)=0
     
@@ -135,13 +114,14 @@ b) metoda iteracji prostej
     xn+1=y(xn)
 x2=xp
     
-c) regula falsi 
+ 
+    
+d) Metoda siecznych
+regula falsi 
   
     patrzymy w kórym przedziale jest pierwiastek i puszczam sieczna
-    
-d) Metoda sieczna
   
-e) Metoda Newtona-Raphsona - styczna
+e) Metoda Newtona-Raphsona - metoda stycznych
   
     f(x+h)=f(x)+1/1!hf'(x)+1/2!hf''(x)...
     
@@ -151,13 +131,15 @@ e) Metoda Newtona-Raphsona - styczna
     
     
   
-## Petla w Matlab'ie
+## Pętle w Matlab'ie
   
   Petla FOR: 
   
     for s=0.0:0.01:1.0
         disp(s)
     end
+
+## INstrukcje warunkowe
 
   Warunek IF:
 c=5
