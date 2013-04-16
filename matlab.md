@@ -1,8 +1,9 @@
-### Wykłady Niedziela 24-03-2013..
+# Wykłady Niedziela 24-03-2013..
 
 ##Obsługa Matlab'a.
+--------------------------
 
-***Podstawowe komendy***
+**Podstawowe komendy**
 
 * **ans** - zmienna odpowiedź;
 * **format compact** - wydruk jest bardziej zwarty bez wolnych lini, steruje postacią wydruku;
@@ -11,22 +12,25 @@
 * **format short** - ustawia wyświetlanie wyniku na krótki format wydruku;
 * **format long** - wynik przedstawiony będzie w większej precyzji;
 * **help format** - wyświetla pomoc na temat komendy dla format;
-* realmax - najwieksza liczba reprezentowana dokldanie, to nie jest najwieksza liczba jaka możemy osiagnać.
-* inf - informacja o przepelnieniu, wyszlismy poza skale
-* realmin - najmniejsza wartosc reprezentowana dokladnie
-* eps - epsiolon maszynowy --- najmniejsza liczba ktora dodana do jedynki daje wieksza liczbe od jedynki 1+E>1 (pierwsi sasiedzi kolo jedynki)
-* sqrt(_argument_) - obliczanie pierwiastka
-* sin(pi) -  sinus pi
-* sind(30) - pokazuje w stopniach
-* asin() - funkcja odworotna
-* [ np 1 2 3 ] - definiowanie vectora, zamiast spacji można sotosować przecinek. Vector wierszowy
-* [; ; ;] - vector kolumnowy gdy odzielamy arguenty srednikiem ;
-* 1:3 - też wygeneruje vector, sluzy bardziej do ciagów
-* ; - gdy odajemy go na koncu obliczen wsytrzymuje wydruk
-* plot(x,y) - otwiera okno do rysowania funkcji, okno graficzne
-* plot(x,y,'o') - rysowanie za pomoca kólek
-* plot(x,y,'o-') - kólka polaczone linia
-* plot(x,y,'g-o',x,y1,'r-')  - narysuje dwie funkcje nachodzace sie na siebie kazda w innym kolorze
+* **realmax** - największa liczba reprezentowana dokładnie, to nie jest największa liczba jaka możemy osiągnać;
+* **inf** - informacja o przepełnieniu, wyszliśmy poza zakres;
+* **realmin** - najmniejsza wartośź reprezentowana dokładnie;
+* **eps** - epsilon maszynowy --- najmniejsza liczba która dodana do jedynki daje większa liczbe od jedynki 1+E>1 (najbliszy  sąsiad  jedynki);
+* **sqrt(_argument_)** - funkcja pierwiastek kwadratowy;
+* **sin(pi)** - funkcja sinus, **pi** - predefinowana stała;
+* **sind(30)* - funkcja sinus dla argumentów podawanych w stopniach;
+* **asin()** - funkcja arcsin;
+* **[1 2 3 ]** - definiowanie wectora wierszowego, zamiast spacji można sotosować przecinek. Wector wierszowy
+* **[; ; ;] **- wector kolumnowy gdy odzielamy argumenty średnikiem ;
+* **1:3** - też wygeneruje wector, służy bardziej do ciągów;
+* **;** - gdy dajemy go na koncu obliczeń wsytrzymuje wydruk wyników;
+
+--------
+##komendy graficzne
+* **plot(x,y,'opcje')** - otwiera okno do rysowania funkcji, okno graficzne, x wektor argumentów, y wektor wartości;
+* **plot(x,y,'o')** - rysowanie punktów wykresu za pomoca kółek;
+* **plot(x,y,'o-')** - kółka połączone linią;
+* **plot(x,y,'g-o',x,y1,'r-')**  - narysuje dwie funkcje na jednym wykresie, pierwsza zielona, druga czerwona;
 * >> x=-2*pi:0.1:2*pi;
   >> y=sin(x);
   >> plot(x,y,'o')  ***przykladowa procedura rysowania funkcji
