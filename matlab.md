@@ -31,13 +31,18 @@
 * **plot(x,y,'o')** - rysowanie punktów wykresu za pomoca kółek;
 * **plot(x,y,'o-')** - kółka połączone linią;
 * **plot(x,y,'g-o',x,y1,'r-')**  - narysuje dwie funkcje na jednym wykresie, pierwsza zielona, druga czerwona;
-* >> x=-2*pi:0.1:2*pi;
+
+###Przykład rysowania funkcji sinus
+>> x=-2*pi:0.1:2*pi;
   >> y=sin(x);
-  >> plot(x,y,'o')  ***przykladowa procedura rysowania funkcji
-* ezplot('x^2+y^2=4') - narysuje nam kolo o promieniu 4
-* clear('zmienna') - usówa zmienna z pamieci
-* ' - transpozycja w obliczeniach algebry liniowej
-* .* - monożenie wektora i poswstaje wetor. operacje z kropkami licznie element po elemencie. Tak samo można przeprowadzać inne dzialania matemayczne.
+  >> plot(x,y,'o') 
+  
+-------------------------------
+
+* **ezplot('x^2+y^2=4')** - narysuje nam okrąg o promieniu 2;
+* **clear('zmienna')** - usuwa zmienną z pamięci;
+* **A'** - transpozycja macierzy A;
+* **.** - działania tablicowe;
    x=[1 2 3 ]
   x =
      1     2     3
