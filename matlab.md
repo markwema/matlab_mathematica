@@ -1,16 +1,16 @@
-### Wyklady Niedziela 24-03-2013..
+### Wykłady Niedziela 24-03-2013..
 
-##Obsluga Matlab'a.
+##Obsługa Matlab'a.
 
 ***Podstawowe komendy***
 
-* ans - odpowiedz
-* foramt compact - wydruk jest bardziej zwarty bez wolnych lini, steruje postacia wydruku
-* a=2+2 - przypisanie zmiennej 
-* whos  - pokazuje wlasciwosci naszej funkcji
-* format short - ustawia wyswietlanie wynik na króki format wydrku
-* format long - wynik przedstawiony bedzie w wiekszej precyzji.
-* help format - wyswietla pomoc i podstawowe komendy dla format
+* **ans** - zmienna odpowiedź;
+* **format compact** - wydruk jest bardziej zwarty bez wolnych lini, steruje postacią wydruku;
+* **a=2+2** - tworzenie zmoiennej a lub wartości przypisanie zmiennej ;
+* **whos**  - pokazuje zmienne w przestrzeni roboczej;
+* **format short** - ustawia wyświetlanie wyniku na krótki format wydruku;
+* **format long** - wynik przedstawiony będzie w większej precyzji;
+* **help format** - wyświetla pomoc na temat komendy dla format;
 * realmax - najwieksza liczba reprezentowana dokldanie, to nie jest najwieksza liczba jaka możemy osiagnać.
 * inf - informacja o przepelnieniu, wyszlismy poza skale
 * realmin - najmniejsza wartosc reprezentowana dokladnie
