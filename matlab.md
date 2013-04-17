@@ -140,7 +140,7 @@ e) Metoda Newtona-Raphsona - metoda stycznych
         disp(s)
     end
 
-## INstrukcje warunkowe
+## Instrukcje warunkowe
 
   Warunek IF:
 c=5
@@ -207,7 +207,7 @@ Te operacje można realizować przez pętle.
       x=sqrt(4*exp(12.4))/(2*tan(pi*0.47))
       
 ***
-### Sprawdzanie numeryczne tożsamości trygonoetrycznej dla kilku wartości kątów alfa i beta np. pi/2, 0.366pi itp.;
+### Sprawdzanie numeryczne tożsamości trygonometrycznej dla kilku wartości kątów alfa i beta np. pi/2, 0.366pi itp.;
 
        w=[]
     for b=0:0.1:1
@@ -321,7 +321,7 @@ A(2,3)
     x*z
     diag(z)
     rank(z)
-### Uklad równan liniowych
+### Układ równan liniowych
 
     a=[1 -4 3 5;3 1 -2 7;2 1 1 8;-1 -2 -5 -2];
     b=[-7;14;5;4];
@@ -362,4 +362,4 @@ A(2,3)
     val=a*x.^2+b*x+c;
     end
     
-Funkcje wywolujemy poleceniem>> kwadratowa(1,1,1[1 2 3])
+Funkcje wywołujemy poleceniem>> kwadratowa(1,1,1[1 2 3])
