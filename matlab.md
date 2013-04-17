@@ -91,7 +91,7 @@
 Aby zlokalizować pierwiastek równania f(x)=0 potrzeba kilku kroków:
 
 ```
- Czy funkcja w danym przedziale zmienia znak: f(a)*f(b)<0
+ Czy funkcja w danym przedziale zmienia znak: f(a)*f(b)<0 ?
 ```
 
 #### Metody lokalizacji pierwiastka
@@ -152,13 +152,13 @@ c=5
       end
 
 
-# Zajecia 14.04.2013 mala powtórka
+# Zajęcia 14.04.2013 mała powtórka
 
 ### Zmienne zapisywane w systemie podwójnej precyzji:
 
-* realmax
-* realmin
-* eps 1+eps>1
+* **realmax**
+* **realmin**
+* **eps**- 1+**eps**>1
 
 Skalarne a=1
 
@@ -167,12 +167,16 @@ Wektory
         y=[1;2;3]
 Macierze 
         [1,2;2,3]
+        daje wynik: 
+        1   2
+        2   3
+
 
 Polecenia:
 
-        who wyswietla informcje o zmiennych
-        whos
-        clear all - czsci tabele
+        **who** wyświetla informcje o zmiennych
+        **whos**
+        **clear all** - usuwa zmienne z przestrzeni roboczj
 ### Obliczenia numeryczne(symboliczne)
 
       okna:
@@ -213,7 +217,7 @@ Te operacje można realizować przez petle.
     end
     w
 ***
-### Zadanie z cos(alfa)+cos(beta)
+### Zadanie z cos(\alpfa)+cos(\beta)
 
     alfa=pi/2
     beta=0.366*pi
