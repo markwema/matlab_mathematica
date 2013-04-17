@@ -134,7 +134,7 @@ e) Metoda Newtona-Raphsona - metoda stycznych
   
 ## Pętle w Matlab'ie
   
-  Petla FOR: 
+  Petla **FOR**: 
   
     for s=0.0:0.01:1.0
         disp(s)
@@ -177,7 +177,7 @@ Polecenia:
         **who** wyświetla informcje o zmiennych
         **whos**
         **clear all** - usuwa zmienne z przestrzeni roboczj
-### Obliczenia numeryczne(symboliczne)
+### Obliczenia numeryczne (można czasami używać symboliczne)
 
       okna:
         komendy
@@ -196,17 +196,18 @@ Operacje:
       Tablicowe(kropkowe)
         element * element
         
-Te operacje można realizować przez petle.
+Te operacje można realizować przez pętle.
 
-# Cwiczenia
+# Ćwiczenia
 
-### Cwiczenie 2 Operacje na liczbach 0blicz:
+### Cwiczenie 2
+#### Operacje na liczbach 0blicz:
  x=(-log(2.4)+sqrt(sin(4)-4*exp(3.4)))/(2*pi)
 
       x=sqrt(4*exp(12.4))/(2*tan(pi*0.47))
       
 ***
-### Sprawdzanie numeryczne tożsamosci trygonoetrycznej dla kilku wartosci katów alfa i beta np. pi/2, 0.366pi itp
+### Sprawdzanie numeryczne tożsamości trygonoetrycznej dla kilku wartości kątów alfa i beta np. pi/2, 0.366pi itp.;
 
        w=[]
     for b=0:0.1:1
@@ -225,7 +226,7 @@ Te operacje można realizować przez petle.
     
 ***
 
-### Generowanie wektorów, przetestuj wyrżenia:
+### Generowanie wektorów, przetestuj wyrażenia:
 
     a=[1 2 3];
     b=[1,2,3];
