@@ -1,2 +1,2 @@
 # Mathematica -- Program typu CAS
-## Notatki z  zajęć prof W. Miklaszewski
+## Notatki z  zajęć z profesorem W. Miklaszewski
