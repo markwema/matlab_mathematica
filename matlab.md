@@ -2,6 +2,8 @@
 
 ##Obsługa Matlab'a.
 --------------------------
+Darmowy kompatybilny z Matlabem program to Octave. Patrz też na stronę:
+[octave](http://www.opcode.eu.org/more_advanced/programing/octave/)
 
 **Podstawowe komendy**
 
