@@ -1,0 +1,1 @@
+# Mathematica -- Program typu CAS
