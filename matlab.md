@@ -220,7 +220,7 @@ Te operacje można realizować przez pętle.
     end
     w
 ***
-### Zadanie z cos(\alpfa)+cos(\beta)
+### Zadanie z cos(\alpha)+cos(\beta)
 
     alfa=pi/2
     beta=0.366*pi
@@ -267,6 +267,8 @@ b/c
     b./c
     
 ### Zadanie - Interpolacja
+ _metoda numeryczna polegająca na wyznaczaniu w danym przedziale tzw. funkcji interpolacyjnej, 
+ która przyjmuje w nim z góry zadane wartości w ustalonych punktach, nazywanych węzłami_
     
     x=[1,2,3]
     y=[3.20,3.29,3.32]
@@ -277,6 +279,10 @@ b/c
     plot(x,y,'o',x1,y1,'--')
     
 ### Aproksymacja 
+_Aproksymacja – proces określania rozwiązań przybliżonych na podstawie rozwiązań znanych, 
+które są bliskie rozwiązaniom dokładnym w ściśle sprecyzowanym sensie. Zazwyczaj aproksymuje się byty (np. funkcje)
+skomplikowane bytami prostszymi. Często stosowana w przypadku szukania rozwiązań dla danych uzyskanych metodami 
+empirycznymi, które mogą być obarczone błędami_
 
     x=[1,2,3]
     y=[3.20,3.29,3.32]
