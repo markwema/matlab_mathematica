@@ -371,3 +371,7 @@ A(2,3)
     end
     
 Funkcje wywołujemy poleceniem>> kwadratowa(1,1,1[1 2 3])
+
+## Inne ważne rzeczy
+
+* **[n,m]=size(A)** - zwraca rozmiar macierzy A;
