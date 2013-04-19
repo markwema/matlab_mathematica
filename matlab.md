@@ -247,16 +247,16 @@ y=b'
     e=[1:.1:10]
 
 ***
-### Zadanie - Dostep do elementów
+### Zadanie - Dostep do elementów wektorów i macierzy
 
 ### Przyklad a)
 
-    a=[1:5]
-    a(1),a(2)
-    a(10)
+    a=[1:5] % a=[1,2,3,4,5]
+    a(1),a(2) %a(1)=1, a(2)=2;
+    a(10) %błąd, wektor ma tylko 5 elementów;
     a(10)=123%co się stanie, przecież a ma rozmiar 5 
-    Program pokaż blad bo tablica jest za mala, trzeba zamiast a=[1:5] wpisać a=[1:10]
-    
+    % zostaje utworzony wektor z a , gdzie elemeny a(6:9)=0 i a(10)=123
+   
 ### Przyklad b)
 
     b=[2:2:20]
