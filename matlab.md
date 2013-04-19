@@ -247,9 +247,9 @@ y=b'
     e=[1:.1:10]
 
 ***
-### Zadanie - Dostep do elementów wektorów i macierzy
+### Zadanie - Dostęp do elementów wektorów i macierzy
 
-### Przyklad a)
+### Przykład a)
 
     a=[1:5] % a=[1,2,3,4,5]
     a(1),a(2) %a(1)=1, a(2)=2;
@@ -257,7 +257,7 @@ y=b'
     a(10)=123%co się stanie, przecież a ma rozmiar 5 
     % zostaje utworzony wektor z a , gdzie elemeny a(6:9)=0 i a(10)=123
    
-### Przyklad b)
+### Przykład b)
 
     b=[2:2:20]
     b/2
@@ -320,15 +320,15 @@ A(2,3)
       
 ### Operacje macierzowe
 
-    z=rand(4,4)
+    z=rand(4,4) % generuje macierz 4x4 liczbami losowymi z przedziału (0,1)
     det(z)
     sum(z)
     min(z)
     max(z)
-    x=inv(z)
-    x*z
-    diag(z)
-    rank(z)
+    x=inv(z) % macierz odwrotna do z;
+    x*z % możenie macierzowe x przez z;
+    diag(z) % podaje elementy leżące na diagonali macierzy z;
+    rank(z) % rząd macierzy z;
 ### Układ równan liniowych
 
     a=[1 -4 3 5;3 1 -2 7;2 1 1 8;-1 -2 -5 -2];
