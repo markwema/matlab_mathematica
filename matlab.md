@@ -179,7 +179,7 @@ Polecenia:
         **who** wyświetla informcje o zmiennych
         **whos**
         **clear all** - usuwa zmienne z przestrzeni roboczj
-### Obliczenia numeryczne (można czasami używać symboliczne)
+### Obliczenia numeryczne (można czasami używać symbolicznych)
 
       okna:
         komendy
