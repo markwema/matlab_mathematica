@@ -357,7 +357,7 @@ A(2,3)
     plot(x,y)
     
 ### Wykres3D
- [x,y]=meshgrid(-3:.12:3);
+ [x,y]=meshgrid(-3:.12:3); % wykres w postaci sieci krat
     z=sin(x).*exp(y)+x.*y;
     mesh(x,y,z);
     
