@@ -13,7 +13,9 @@ Można go używać do:
 * [video i zrzuty](http://www.wolfram.com/broadcast/screencasts/);
 * [demonstracje](http://demonstrations.wolfram.com);
 * [czasopismo](http://www.mathematica-journal.com);
+
 ----
+
 # Mathematica -- organizacja
 
 Pracujemy w dokumencie zwanym „Notatnik"
@@ -24,4 +26,6 @@ Pracujemy w dokumencie zwanym „Notatnik"
 
 * Program rozróżnia małe i duże litery;
 * Polecenia, nazwy wbudowanych funkcji i stałych zaczynają się od dużej litery – np.**Sin[x]**;
-* 
+* Używaj małych liter, aby zadeklarować swoje funkcje i stałe;
+* Argumenty funkcji są zamykane w nawiasach prostokątnych [];
+* Nawiasy klamrowe {} są używane do grupowania elementów, oraz do oznaczania zakresów parametrów funkcji; 
