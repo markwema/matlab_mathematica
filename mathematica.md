@@ -29,3 +29,6 @@ Pracujemy w dokumencie zwanym „Notatnik"
 * Używaj małych liter, aby zadeklarować swoje funkcje i stałe;
 * Argumenty funkcji są zamykane w nawiasach prostokątnych [];
 * Nawiasy klamrowe {} są używane do grupowania elementów, oraz do oznaczania zakresów parametrów funkcji; 
+* Nawiasy () są zarezerwowane do grupowania operacji;
+* Nazwy wszystkich funkcji dla obliczeń numerycznych zaczynają się od litery N np. NSin[];
+* Komentarze mają formę -- (* komentarz *);
