@@ -22,7 +22,7 @@ Pracujemy w dokumencie zwanym „Notatnik"
 * **SHIFT+ENTER** – wykonanie obliczeń;
 * **ENTER** – nowa linia;
 
-## POdstawowe zasady
+## Podstawowe zasady
 
 * Program rozróżnia małe i duże litery;
 * Polecenia, nazwy wbudowanych funkcji i stałych zaczynają się od dużej litery – np.**Sin[x]**;
