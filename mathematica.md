@@ -7,3 +7,5 @@ Można go używać do:
 * nauczania;
 * inżynierii;
 * informatyki itp;
+
+##Mathematica – publikacje:
