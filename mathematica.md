@@ -35,7 +35,10 @@ Pracujemy w dokumencie zwanym „Notatnik"
 
 ## Praca -- kalkulator
 * tworzenie zmienne skalrnej np. **x=3.14**
-* usuwanie zmiennej **X** z przestrzeni roboczej na dwa sposoby: **X=.** lub **Clear[X]**;
-*  Liczby 3, 5 ,1 stanowią trzy obiekty Listy **a={3,5,1}** {lista 3-elementowa};
-*  Poszczególne elementy listy możemy otrzymywać np. element drugi **a[[2]]=1**;
+* usuwanie zmiennej **x** z przestrzeni roboczej na dwa sposoby: **x=.** lub **Clear[x]**;
+
+### Listy
+
+* Liczby 3, 5 ,1 stanowią trzy obiekty Listy **a={3,5,1}** {lista 3-elementowa};
+* Poszczególne elementy listy możemy otrzymywać np. element drugi **a[[2]]=1**;
 
