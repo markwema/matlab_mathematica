@@ -32,3 +32,5 @@ Pracujemy w dokumencie zwanym „Notatnik"
 * Nawiasy () są zarezerwowane do grupowania operacji;
 * Nazwy wszystkich funkcji dla obliczeń numerycznych zaczynają się od litery N np. NSin[];
 * Komentarze mają formę -- (* komentarz *);
+* usuwanie zmiennej **X** z przestrzeni roboczej na dwa sposoby: **X=.** lub **Clear[X]**;
+
