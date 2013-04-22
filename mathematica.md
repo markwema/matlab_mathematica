@@ -34,5 +34,5 @@ Pracujemy w dokumencie zwanym „Notatnik"
 * Komentarze mają formę -- (* komentarz *);
 * usuwanie zmiennej **X** z przestrzeni roboczej na dwa sposoby: **X=.** lub **Clear[X]**;
 *  Liczby 3, 5 ,1 stanowią trzy obiekty Listy **a={3,5,1}** {lista 3-elementowa};
-*  Poszczególne elementy listy np. element drugi **{3,1,5}[[2]]=1**;
+*  Poszczególne elementy listy możemy otrzymywać np. element drugi **a[[2]]=1**;
 
