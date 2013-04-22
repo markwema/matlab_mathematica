@@ -42,3 +42,8 @@ Pracujemy w dokumencie zwanym „Notatnik"
 * Liczby 3, 5 ,1 stanowią trzy obiekty Listy **a={3,5,1}** {lista 3-elementowa};
 * Poszczególne elementy listy możemy otrzymywać np. element drugi **a[[2]]=1**;
 
+## Wyrażenia algebraiczne
+
+
+
+## Funkje
