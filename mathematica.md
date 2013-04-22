@@ -32,6 +32,9 @@ Pracujemy w dokumencie zwanym „Notatnik"
 * Nawiasy () są zarezerwowane do grupowania operacji;
 * Nazwy wszystkich funkcji dla obliczeń numerycznych zaczynają się od litery N np. NSin[];
 * Komentarze mają formę -- (* komentarz *);
+
+## Praca -- kalkulator
+* tworzenie zmienne skalrnej np. **x=3.14**
 * usuwanie zmiennej **X** z przestrzeni roboczej na dwa sposoby: **X=.** lub **Clear[X]**;
 *  Liczby 3, 5 ,1 stanowią trzy obiekty Listy **a={3,5,1}** {lista 3-elementowa};
 *  Poszczególne elementy listy możemy otrzymywać np. element drugi **a[[2]]=1**;
