@@ -3,4 +3,5 @@
 ## Wstęp
 Liczby w maszynie cyfrowej reprezentowane są przez skończoną przez skończoną liczbę cyfr ich rozwinięć pozycyjnych.
 Sposób reprezentacji liczby zależy od jej typu. Liczby typu **int** mają reprezentację stałopozycyjną, typu **real**
-zmiennopozycyjną.
+zmiennopozycyjną. Każdą liczbę całkowitą można zapisać binarnie
+$l=s*(e_0*2^0+e_1*2^1+...+e_n*2^n)$
