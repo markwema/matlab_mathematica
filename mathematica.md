@@ -51,4 +51,7 @@ Nową funkcję definiujemy jak w poniższym przykładzie
 ```
 f[x_]=x^2-3*x+9
 ```
-
+A konkretną wartość funkcji jak niżej
+```
+f[0]=-9
+```
