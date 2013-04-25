@@ -53,5 +53,8 @@ f[x_]=x^2-3*x+9
 ```
 A konkretną wartość funkcji jak niżej
 ```
-f[0]=-9
+inp:f[0]
+out: 9
+Inp: f[1]
+out: 7
 ```
