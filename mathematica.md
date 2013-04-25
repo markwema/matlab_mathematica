@@ -47,3 +47,8 @@ Pracujemy w dokumencie zwanym „Notatnik"
 
 
 ## Funkje
+Nową funkcję definiujemy jak w poniższym przykładzie
+```
+f[x_]=x^2-3*x+9
+```
+
